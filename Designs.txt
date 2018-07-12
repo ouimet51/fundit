@@ -1,0 +1,34 @@
+Designs
+
+SQL
+
+USER Table 
+Table Name = users 
+Columns: 
+user_id INT Primary AI
+email varChar(120)
+first varChar(120)
+last varChar(120)
+password_hash(128)
+account_total
+
+Fund Table 
+id 
+name
+description
+goal - Let's limit at 20k
+start
+
+fund_transaction 
+fund_transacton_id
+user_id
+date
+transationtotal (needs to be able to handle -/+)
+goal_id
+
+account_transaction Table
+account_id
+date
+user id
+transaction
+

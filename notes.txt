@@ -1,0 +1,14 @@
+How to activate VENV - source venv/bin/activate
+
+When working with database servers such as MySQL and PostgreSQL, you have to create the database in the database server before running upgrade. This will be important when we decide to migrate databases to Postgre
+
+SQL Lite can not handle the decimal or numeric data type so we are using an integer to store total cents for the dollar figures, this will need to be converted In python
+
+Things I need to learn more about
+- What are the point of decorators
+- Object Oriented Programming
+- How to start a GitHub page from your terminal
+- How to automatically add stuff to requirements.txt
+- Study more about flask-login
+- Look in to werkzeug url_parse and netloc
+- learn more about flask_wtf
